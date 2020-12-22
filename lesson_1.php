@@ -14,9 +14,21 @@
     <?php include_once './parts/header.php' ?>
 
     <main class="main">
-        <h1><?php echo 'Hello, NIX Education' ?></h1>
+        <h1><?php echo 'Урок 1' ?></h1>
+
+        <div class="wrapper">
+        <?php
+        for ($m=1; $m < 11 ; $m++) {
+            echo '<div class="num">'; 
+            for ($i=1; $i < 11 ; $i++) { 
+                echo $m .' x '. $i .' = '. $m*$i.'<br>' ;
+            };
+            echo '</div>';
+        }   
+        ?>
+        </div>
     </main>
-   
+    
     <?php include_once './parts/footer.php' ?>
 </body>
 

@@ -58,3 +58,14 @@ nav.nav {
     display: flex;
     align-items: flex-end;
 }
+/* lesson 1*/
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+}
+.num {
+    flex: 0 0 18%;
+    margin-right: 16px;
+    margin-bottom: 16px;
+}
