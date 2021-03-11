@@ -23,11 +23,14 @@
         <?php
         
         $string = $_POST['text'];
-        
+
+        $str = implode('', array_reverse(preg_split('//u', (string) $string)));
         ?>
 
-        <p><?php echo strrev($string); ?></p>
+        <p><?php echo $str ?></p>
     </main>
+
+
     
     <?php include_once './parts/footer.php' ?>
 </body>

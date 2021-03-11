@@ -4,16 +4,20 @@ body {
     margin: 0;
     padding: 0;
 }
+
 a {
     color: #000000;
 }
+
 a:hover {
     opacity: 0.75;
 }
+
 h1, h2, h3 {
     margin-top: 0;
     margin-bottom: 32px;
 }
+
 .header {
     background-color: #cccccc;
     height: 70px;
@@ -21,14 +25,17 @@ h1, h2, h3 {
     align-items: center;
     padding: 0 16px;
 }
+
 .site-logo {
     margin-right: 16px;
 }
+
 ul.menu {
     list-style: none;
     padding: 0;
     margin: 0;
 }
+
 .menu-item {
     list-style: none;
     display: inline-block;
@@ -37,27 +44,32 @@ ul.menu {
     transition: 0.3s;
     margin-right: 12px;
 }
+
 .menu-item:hover {
     border-bottom: 1px dotted #000;
 }
+
 .menu-item > a {
     text-decoration: none;
 }
+
 nav.nav {
     padding: 5px 16px;
 }
+
 .main {
-    height: calc(100vh - 160px);
-    min-height: 50vh;
+    min-height: calc(100vh - 160px);
     padding: 0 16px;
 }
+
 .footer {
     background-color: #ccc;
     height: 90px;
-    padding: 0 16px;
+    padding: 16px;
     display: flex;
     align-items: flex-end;
 }
+
 /* lesson 1*/
 .wrapper {
     display: flex;
@@ -67,6 +79,7 @@ nav.nav {
     padding: 2px;
     justify-content: center;
 }
+
 .num {
     flex: 0 0 15%;
     margin-right: 4px;
@@ -74,15 +87,19 @@ nav.nav {
     border: 1px solid;
     padding: 16px;
 }
+
 .red {
     color: red;
 }
+
 .green {
     color: green;
 }
+
 .yellow {
     color: yellow;
 }
+
 .blue {
     color: blue;
 }
